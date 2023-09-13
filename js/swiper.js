@@ -29,16 +29,23 @@ const swiper = new Swiper('.swiper', {
 
       mousewheel: {
         forceToAxis: true,
-      },  
+      }, 
+        // Navigation arrows
+     navigation: {
+      nextEl: '.swiper-btn-next',
+      prevEl: '.swiper-btn-prev',
+     },
   
      // If we need pagination
      pagination: {
       el: '.swiper-pagination',
-     },
-  
-     // Navigation arrows
-     navigation: {
-      nextEl: '.swiper-btn-next',
-      prevEl: '.swiper-btn-prev',
+      // fraction
+      type: 'fraction',
+      // castom fraction
+      // renderFraction: function(currentClass, totalClass) {
+      //   return `Фото <span class="`+ currentClass + '"></span>' +
+      //   ' из ' + 
+      //   ' <span class="' + totalClass + '"></span>';
+      // },
      },
  });
