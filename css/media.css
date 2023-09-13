@@ -78,6 +78,7 @@
 
     .products__item {
         min-height: 628px;
+        background-size: contain;
     }
 
     .products__figure img {
@@ -147,6 +148,10 @@
         font-size: 24px;
         line-height: 28px;
     }
+
+    .products__item {
+        background-size: contain;
+    }
 }
 
 @media (width <=780px) {
@@ -180,6 +185,15 @@
         padding: 16px 0px;
     }
 
+    .products__item {
+        min-height: 588px;
+    }
+
+    .products__figure img {
+        width: 340px;
+        height: 360px;
+    }
+
     .products__title {
         font-size: 42px;
         line-height: 43px;
@@ -195,17 +209,37 @@
 }
 
 @media (width <=560px) {
-    .products__figure img {
-        width: 360px;
-        height: 380px;
+
+    .content__main {
+        width: 100%;
+    }
+    .content__desc {
+        display: none;
     }
 
+    .about__desc {
+        padding: 32px;
+    }
+
+    .content__desc-mobile {
+        display: flex;
+    }
+
+    .content__right {
+        width: 100%;
+    }
+    
     .swiper__btn {
         margin: 12px;
     }
 
     .swiper-btn-prev, .swiper-btn-next {
         display: none;
+    }
+
+    .about__par {
+        font-size: 16px;
+        line-height: 24px;
     }
 
 
