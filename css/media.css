@@ -1,0 +1,5 @@
+@media (width <= 1760px) {
+    .story__name::before, .story__name::after {
+        display: none;
+    }
+}
