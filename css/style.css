@@ -362,22 +362,22 @@ img {
     border-bottom: 1px solid #000;
 }
 
-.story {
+.about {
     display: flex;
     justify-content: space-between;
 }
 
-.story__content {
+.about__content {
     width: 50%;
     border-right: 1px solid #000;
 }
 
-.story__name {
+.about__name {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.story__title {
+.about__title {
     max-width: 590px;
     padding-top: 54px;
     padding-bottom: 23px;
@@ -388,7 +388,7 @@ img {
     line-height: 65px;
 }
 
-.story__name::before {
+.about__name::before {
     content: '';
     width: 50px;
     height: 50px;
@@ -398,7 +398,7 @@ img {
     background-repeat: no-repeat;
 }
 
-.story__name::after {
+.about__name::after {
     content: '';
     width: 50px;
     height: 50px;
@@ -408,14 +408,14 @@ img {
     background-repeat: no-repeat;
 }
 
-.sroty__video {
+.about__video {
     border-top: 1px solid #000;
     width: 100%;
     padding: 20px;
 }
 
-.story__desc {
-    background: url(../img/story/star.svg) no-repeat;
+.about__desc {
+    background: url(../img/about/star.svg) no-repeat;
     background-size: cover;
     background-position: center;
     aspect-ratio: 1/1;
@@ -426,11 +426,11 @@ img {
     width: 50%;
 }
 
-.story__main {
+.about__main {
     min-width: 392px;
 }
 
-.story__par {
+.about__par {
     max-width: 390px;
     margin: 0 auto;
     color: #000;

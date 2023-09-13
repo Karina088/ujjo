@@ -1,5 +1,14 @@
 @media (width <= 1760px) {
-    .story__name::before, .story__name::after {
+    .about__name::before, .about__name::after {
         display: none;
+    }
+}
+
+@media (width >= 1760px) {
+    .content-desc>h3 {
+        font-size: 36px;
+    }
+    .content-desc>p {
+        font-size: 21px;
     }
 }
