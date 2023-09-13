@@ -21,7 +21,8 @@ body {
     font-weight: 400;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    background-color: #FFF;
+    /* background-color: #FFF; */
+    background: #fffcf7;
 }
 
 header {
@@ -426,7 +427,7 @@ img {
 
 .about__desc {
     background: url(../img/about/star.svg) no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     aspect-ratio: 1/1;
     display: flex;

@@ -1,10 +1,10 @@
 <svg width="61" height="70" viewBox="0 0 61 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="61" height="70" fill="#E5E5E5"/>
 <g id="Desktop" clip-path="url(#clip0_0_1)">
-<rect width="1440" height="4472" transform="translate(-689 -21)" fill="white"/>
+<rect width="1440" height="4472" transform="translate(-689 -21)" fill="#fffcf7"/>
 <g id="Frame">
 <g id="Frame_2">
-<path id="Rectangle" d="M-666.5 -20.5H729.5V90.5H-666.5V-20.5Z" fill="white" stroke="black"/>
+<path id="Rectangle" d="M-666.5 -20.5H729.5V90.5H-666.5V-20.5Z" fill="#fffcf7" stroke="black"/>
 <g id="Frame_3">
 <g id="Frame_4">
 <g id="IMAGE" clip-path="url(#clip1_0_1)">
@@ -20,10 +20,10 @@
 </g>
 <defs>
 <clipPath id="clip0_0_1">
-<rect width="1440" height="4472" fill="white" transform="translate(-689 -21)"/>
+<rect width="1440" height="4472" fill="#fffcf7" transform="translate(-689 -21)"/>
 </clipPath>
 <clipPath id="clip1_0_1">
-<rect width="61" height="70" fill="white"/>
+<rect width="61" height="70" fill="#fffcf7"/>
 </clipPath>
 </defs>
 </svg>
