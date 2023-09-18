@@ -353,6 +353,7 @@ img {
 
 .content__ticker {
     display: flex;
+    justify-content: center;
 }
 
 .content__item {
