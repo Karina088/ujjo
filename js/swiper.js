@@ -11,7 +11,7 @@ const swiper = new Swiper('.swiper', {
         spaceBetween: 20,
       },
         520: {
-          slidesPerView: 1.1,
+          slidesPerView: 1.2,
         },
 
         700: {
@@ -28,10 +28,10 @@ const swiper = new Swiper('.swiper', {
         },
 
         1144: {
-          slidesPerView: 2.5,
+          slidesPerView: 2.7,
         },
         1360: {
-          slidesPerView: 3,
+          slidesPerView: 3.2,
         },
           1780: {
             slidesPerView: 3.7,
@@ -59,4 +59,4 @@ const swiper = new Swiper('.swiper', {
       //   ' <span class="' + totalClass + '"></span>';
       // },
      },
- });
+ })
