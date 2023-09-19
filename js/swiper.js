@@ -1,5 +1,4 @@
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
     direction: 'horizontal',
     loop: true,
 
@@ -52,15 +51,10 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-pagination',
       // fraction
       type: 'fraction',
-      // castom fraction
-      // renderFraction: function(currentClass, totalClass) {
-      //   return `Фото <span class="`+ currentClass + '"></span>' +
-      //   ' из ' + 
-      //   ' <span class="' + totalClass + '"></span>';
-      // },
      },
  })
 
+ // links
  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
       e.preventDefault()

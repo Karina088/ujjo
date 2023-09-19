@@ -318,7 +318,6 @@
     .active-box {
         right: 10%;
     }
-    
 
     .content__head {
         text-align: center;
@@ -421,9 +420,33 @@
     .products__img img {
         display: none;
     }
+
+    #buttons-container {
+        display: flex;
+    }
+
+    #fire-container {
+        width: calc(100vw - 21rem);
+    }
+}
+
+@media (width <=493px) {
+    #fire-container {
+        font-size: 31px;
+    }
+}
+
+@media (width <=435px) {
+    #fire-container {
+        font-size: 37px;
+    }
 }
 
 @media (width <=404px) {
+
+    #fire-container {
+        font-size: 43px;
+    }
 
     .content__head {
         font-size: 26px;

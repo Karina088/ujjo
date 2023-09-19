@@ -853,6 +853,10 @@ img {
     --fireSize: 60px;
 }
 
+#buttons-container {
+    display: none;
+}
+
 #fire-container {
     font-size: 22px;
     filter: blur(var(--blur));

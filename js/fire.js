@@ -10,4 +10,4 @@ function createParticles(fireContainer, num, leftSpacing) {
   }
 }
 
-createParticles(fireContainer, 320, 40)
+createParticles(fireContainer, 70, 40)
