@@ -421,23 +421,27 @@
         display: none;
     }
 
-    #buttons-container {
+    #buttons-container, #btns-container {
         display: flex;
     }
 
-    #fire-container {
+    #fire-container, #fire2-container {
         width: calc(100vw - 21rem);
     }
 }
 
 @media (width <=493px) {
-    #fire-container {
+    #fire-container, #fire2-container {
         font-size: 31px;
+    }
+
+  #fire2-container {
+        width: calc(100vw - 28rem);
     }
 }
 
 @media (width <=435px) {
-    #fire-container {
+    #fire-container, #fire2-container {
         font-size: 37px;
     }
 }
@@ -446,6 +450,11 @@
 
     #fire-container {
         font-size: 43px;
+    }
+
+    #fire2-container {
+        font-size: 27px;
+        width: calc(100vw - 60rem);
     }
 
     .content__head {

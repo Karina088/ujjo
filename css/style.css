@@ -853,11 +853,11 @@ img {
     --fireSize: 60px;
 }
 
-#buttons-container {
+#buttons-container, #btns-container{
     display: none;
 }
 
-#fire-container {
+#fire-container, #fire2-container {
     font-size: 22px;
     filter: blur(var(--blur));
     -webkit-filter: blur(var(--blur));
@@ -866,6 +866,20 @@ img {
 }
 
 #fire-container .particle {
+    -webkit-animation: rise var(--fireDuration) ease-in infinite;
+    animation: rise var(--fireDuration) ease-in infinite;
+    background-image: -o-radial-gradient(var(--fireColor1) 30%, var(--fireColor2) 70%);
+    background-image: radial-gradient(var(--fireColor1) 30%, var(--fireColor2) 70%);
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    width: var(--fireSize);
+    height: var(--fireSize);
+}
+
+#fire2-container .particleEl {
     -webkit-animation: rise var(--fireDuration) ease-in infinite;
     animation: rise var(--fireDuration) ease-in infinite;
     background-image: -o-radial-gradient(var(--fireColor1) 30%, var(--fireColor2) 70%);
