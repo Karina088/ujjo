@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (width <=1760px) {
     .about__name::before, .about__name::after {
         display: none;
@@ -130,6 +137,9 @@
 
 @media (width <=1023px) {
     .about {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -163,14 +173,18 @@
 @media (width <=968px) {
 
     .header {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
+
     .header__menu {
         display: none;
     }
 }
 
 @media (width <=780px) {
+
     /* header, main, footer {
         width: calc(100% - 1%);
     } */
@@ -225,6 +239,9 @@
     }
 
     .footer__contacts {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         gap: 10px;
     }
@@ -246,6 +263,8 @@
     }
 
     .content__desc-mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         padding: 20px;
         margin-top: 32px;
@@ -295,8 +314,11 @@
     }
 }
 
-@media (width <= 798px) {
+@media (width <=798px) {
     .header__menu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -327,6 +349,7 @@
     .content__item {
         font-size: 18px;
     }
+
     .content__icon {
         width: 82px;
         padding: 0px 18px;
@@ -399,14 +422,16 @@
     }
 }
 
-@media (width <= 535px) {
+@media (width <=535px) {
+
     /* .content__desc-mobile {
         margin-top: 0px;
     } */
     .products__item {
-       margin-left: 6px;
-       margin-right: 6px;
+        margin-left: 6px;
+        margin-right: 6px;
     }
+
     .products__img img {
         display: none;
     }
@@ -436,6 +461,7 @@
     .content__text {
         padding: 12px 0px;
     }
+
     .content__item {
         font-size: 14px;
     }
