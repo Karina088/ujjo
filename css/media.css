@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 @media (width <=1760px) {
     .about__name::before, .about__name::after {
         display: none;
@@ -35,7 +28,6 @@
     .header__menu-link {
         padding: 12px 32px;
     }
-
 
     .header__circle {
         width: 14px;
@@ -156,7 +148,7 @@
     }
 
     .about__desc {
-        gap: 24px;
+        gap: 28px;
     }
 
     .about__par {
@@ -185,9 +177,6 @@
 
 @media (width <=780px) {
 
-    /* header, main, footer {
-        width: calc(100% - 1%);
-    } */
     .content-desc>h3 {
         font-size: 18px;
         margin-top: 21px;
@@ -339,7 +328,7 @@
     }
 
     .products__content {
-        padding: 32px 12px;
+        padding: 32px 15px;
     }
 
     .content__desc-mobile {
@@ -382,7 +371,6 @@
     }
 
     .swiper__btn {
-        /* padding-top: 12px; */
         margin: 22px;
     }
 
@@ -424,9 +412,6 @@
 
 @media (width <=535px) {
 
-    /* .content__desc-mobile {
-        margin-top: 0px;
-    } */
     .products__item {
         margin-left: 6px;
         margin-right: 6px;
@@ -435,16 +420,6 @@
     .products__img img {
         display: none;
     }
-
-    /* .content__btn {
-        margin-bottom: 0px;
-    }
-     .content-desc>h3 {
-        margin-top: 0px;
-    } 
-    .content__right {
-        padding-top: 0px;
-    } */
 }
 
 @media (width <=404px) {
@@ -495,13 +470,11 @@
     }
 
     .products__item {
-        min-height: 468px;
+        min-height: 458px;
     }
 
     .products__figure img {
-        width: 286px;
-        height: 284px;
+        width: 256px;
+        height: 256px;
     }
-
-
 }
