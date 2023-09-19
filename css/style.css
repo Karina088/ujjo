@@ -298,6 +298,7 @@ img {
 .mobile__box {
     display: block;
     position: relative;
+    /* width: calc(100vw - 3rem); */
     top: 120px;
     height: 100%;
 }
