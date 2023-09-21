@@ -43,7 +43,7 @@ body {
     text-transform: uppercase;
     background: #fffcf7;
     text-wrap: balance;
-    cursor: url('../img/cursor.svg'), auto;
+    /* cursor: url('../img/cursor.svg'), auto; */
 }
 
 body::-webkit-scrollbar {
