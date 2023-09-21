@@ -26,3 +26,4 @@ function createBtnParticles(fireBtnContainer, num, leftSpacing) {
 }
 
 createBtnParticles(fireBtnContainer, 20, 30)
+
