@@ -6,4 +6,5 @@
 - добавила 3D-анимацию в мобильную верстку (JS)
 - написала функцию для автомотического печатания текста в блоке "about"
 - с помощью метода scrollIntoView() осуществила навигацию по сайту
-  
+   ![Speed](https://github.com/Karina088/ujjo/raw/main/github-img/pagespeed_desk.png)
+   ![Speed](https://github.com/Karina088/ujjo/raw/main/github-img/pagespeed_mobile.png)
